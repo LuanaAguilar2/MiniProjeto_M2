@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do formulário</title>
+    <style src="style.css"></style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Trabalhe conosco</h1>
+        <h4 class="title">Cadatre seu currículo para participar das seleções</h4>
+    </header>
+    <a href="paginaI.html"><button>voltar para tela inicial</button></a>
+    <main>
+        <form action="">
+            <section id="entry">
+                <article id="student">
+
+                    <h2>Dados cadastrais</h2>
+                    <label>Nome completo:</label>
+                    <input id="nameUser" type="text" placeholder="Digite seu nome completo">
+
+                    <label>Data de nascimento:</label>
+                    <input id="date" type="date">
+
+                    <label>CPF:</label>
+                    <input id="cpf" type="number" placeholder="Digite o CPF somente números">
+
+                    <label>Email:</label>
+                    <input id="email" type="email" placeholder="Email: ">
+
+                    <label>Número de contato:</label>
+                    <input id="contat" type="tel" placeholder="55+ ()123456789">
+
+                    <!-- O segundo valor estará selecionado inicialmente -->
+                    <label>Estado civil</label>
+                    <select name="select">
+                        <option value="marcar" selected>Marque</option>
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="Viuvo">Viúvo(a)</option>
+                    </select>
+
+                    <label>Gênero</label>
+                    <select name="select">
+                        <option value="marcar" selected>Marque</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+
+                    <label>Endereço:</label>
+                    <input id="address" type="text" placeholder="Endereço,número,complemento">
+
+                    <label>CEP</label>
+                    <input id="cep" type="number" placeholder="Digite o CEP somente números">
+
+                    <label>Bairro</label>
+                    <input id="district" type="text" placeholder="Bairro">
+
+                    <label>cidade</label>
+                    <input id="city" type="text" placeholder="Cidade">
+
+                    <label>Estado</label>
+                    <input id="state" type="text" placeholder="Estado">
+
+                    <label>Nacionalidade</label>
+                    <input id="nationality" type="text" placeholder="Nacionalidade">
+
+                    <label>Formação</label>
+                    <input id="education" type="text">
+                    <br>
+                    <label>Possui alguma deficiencia</label>
+                    <input id="deficiency" type="radio" name="webmaster" value="sim" /> Sim
+                    <input id="deficiency" type="radio" name="webmaster" value="nao" /> Não
+
+
+
+                </article>
+
+                <article id="course">
+                    <h2>Dados do serviço</h2>
+                    <label>Experiencia profissional</label>
+                    <textarea name="" id=""></textarea>
+                    <br>
+                    <label>Tipo de trabalho</label>
+                    <textarea name="" id=""></textarea>
+                    <br>
+                    <label>cargo atual</label>
+                    <input id="position" type="text">
+                    <label>cargo desejado</label>
+                    <input id="positionA" type="text">
+                </article>
+
+            </section>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <a href="saida.html"><button>Enviar</button></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
